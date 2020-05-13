@@ -100,6 +100,7 @@ public class PythonAbstractConnexionServerCodegen extends DefaultCodegen impleme
         typeMapping.put("date", "date");
         typeMapping.put("DateTime", "datetime");
         typeMapping.put("object", "object");
+        typeMapping.put("AnyType", "object");
         typeMapping.put("file", "file");
         typeMapping.put("UUID", "str");
         typeMapping.put("URI", "str");
